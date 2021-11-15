@@ -19,7 +19,7 @@ def get_evens(numbers: List[int]) -> List[int]:
 
 s=get_fibonacci(max_val=4_000_000)
 s=get_evens(s)
-#s=[x for x in s if x%2==0] -- does same thing as function on line 12
+#s=[x for x in s if x%2==0] -- does same thing as function on line
 print(sum(s))
 
 
